@@ -1,0 +1,17 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ravihlb/clone-tabnews.git",
+  "author": "ravihlb <ravi@deliverydireto.com.br>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev"
+  }
+}
