@@ -13,7 +13,10 @@
     "react-dom": "18.2.0"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "yarn services:up && next dev",
+    "services:up": "docker compose -f infra/compose.yml up -d",
+    "services:stop": "docker compose -f infra/compose.yml stop",
+    "services:down": "docker compose -f infra/compose.yml down",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
